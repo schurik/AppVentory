@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C310E334AFCAA812DD4B3085 /* Pods_AppVentoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1598259976B88ABAEADE753F /* Pods_AppVentoryTests.framework */; };
 		C7A9D0731C6A91C9009276C8 /* AppVentory.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A9D0721C6A91C9009276C8 /* AppVentory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7A9D07A1C6A91C9009276C8 /* AppVentory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A9D06F1C6A91C9009276C8 /* AppVentory.framework */; };
 		C7A9D07F1C6A91C9009276C8 /* AppVentoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D07E1C6A91C9009276C8 /* AppVentoryTests.swift */; };
+		C7A9D08B1C6A97F4009276C8 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A9D0891C6A97F4009276C8 /* Nimble.framework */; };
+		C7A9D08C1C6A97F4009276C8 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A9D08A1C6A97F4009276C8 /* Quick.framework */; };
+		C7A9D08E1C6A9B5D009276C8 /* AppVentory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D08D1C6A9B5D009276C8 /* AppVentory.swift */; };
+		C7A9D0901C6A9CEC009276C8 /* InventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D08F1C6A9CEC009276C8 /* InventoryManager.swift */; };
+		C7A9D0911C6A9CEC009276C8 /* InventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D08F1C6A9CEC009276C8 /* InventoryManager.swift */; };
+		C7A9D0941C6AA176009276C8 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0931C6AA176009276C8 /* App.swift */; };
+		C7A9D0951C6AA176009276C8 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0931C6AA176009276C8 /* App.swift */; };
+		C7A9D0971C6AA2F6009276C8 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0961C6AA2F6009276C8 /* ApiClient.swift */; };
+		C7A9D0981C6AA2F6009276C8 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0961C6AA2F6009276C8 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +33,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1598259976B88ABAEADE753F /* Pods_AppVentoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppVentoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76BDE27606F13F4085209B3 /* Pods-AppVentoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppVentoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppVentoryTests/Pods-AppVentoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7A9D06F1C6A91C9009276C8 /* AppVentory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppVentory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A9D0721C6A91C9009276C8 /* AppVentory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppVentory.h; sourceTree = "<group>"; };
 		C7A9D0741C6A91C9009276C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A9D0791C6A91C9009276C8 /* AppVentoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppVentoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A9D07E1C6A91C9009276C8 /* AppVentoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVentoryTests.swift; sourceTree = "<group>"; };
 		C7A9D0801C6A91C9009276C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A9D0891C6A97F4009276C8 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		C7A9D08A1C6A97F4009276C8 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		C7A9D08D1C6A9B5D009276C8 /* AppVentory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVentory.swift; sourceTree = "<group>"; };
+		C7A9D08F1C6A9CEC009276C8 /* InventoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryManager.swift; sourceTree = "<group>"; };
+		C7A9D0931C6AA176009276C8 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		C7A9D0961C6AA2F6009276C8 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		E20688F39921683916271626 /* Pods-AppVentoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppVentoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppVentoryTests/Pods-AppVentoryTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,19 +62,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A9D08B1C6A97F4009276C8 /* Nimble.framework in Frameworks */,
+				C7A9D08C1C6A97F4009276C8 /* Quick.framework in Frameworks */,
 				C7A9D07A1C6A91C9009276C8 /* AppVentory.framework in Frameworks */,
+				C310E334AFCAA812DD4B3085 /* Pods_AppVentoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18552E67F845C2C29EF4DE4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9D0891C6A97F4009276C8 /* Nimble.framework */,
+				C7A9D08A1C6A97F4009276C8 /* Quick.framework */,
+				1598259976B88ABAEADE753F /* Pods_AppVentoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6111669269AFE25F971CC682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C76BDE27606F13F4085209B3 /* Pods-AppVentoryTests.debug.xcconfig */,
+				E20688F39921683916271626 /* Pods-AppVentoryTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C7A9D0651C6A91C9009276C8 = {
 			isa = PBXGroup;
 			children = (
 				C7A9D0711C6A91C9009276C8 /* AppVentory */,
 				C7A9D07D1C6A91C9009276C8 /* AppVentoryTests */,
 				C7A9D0701C6A91C9009276C8 /* Products */,
+				6111669269AFE25F971CC682 /* Pods */,
+				18552E67F845C2C29EF4DE4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +114,11 @@
 		C7A9D0711C6A91C9009276C8 /* AppVentory */ = {
 			isa = PBXGroup;
 			children = (
+				C7A9D0921C6AA159009276C8 /* model */,
 				C7A9D0721C6A91C9009276C8 /* AppVentory.h */,
 				C7A9D0741C6A91C9009276C8 /* Info.plist */,
+				C7A9D08D1C6A9B5D009276C8 /* AppVentory.swift */,
+				C7A9D08F1C6A9CEC009276C8 /* InventoryManager.swift */,
 			);
 			path = AppVentory;
 			sourceTree = "<group>";
@@ -84,6 +130,15 @@
 				C7A9D0801C6A91C9009276C8 /* Info.plist */,
 			);
 			path = AppVentoryTests;
+			sourceTree = "<group>";
+		};
+		C7A9D0921C6AA159009276C8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9D0931C6AA176009276C8 /* App.swift */,
+				C7A9D0961C6AA2F6009276C8 /* ApiClient.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7A9D0861C6A91C9009276C8 /* Build configuration list for PBXNativeTarget "AppVentoryTests" */;
 			buildPhases = (
+				0398B5B21751AA2CA7B7F24D /* Check Pods Manifest.lock */,
 				C7A9D0751C6A91C9009276C8 /* Sources */,
 				C7A9D0761C6A91C9009276C8 /* Frameworks */,
 				C7A9D0771C6A91C9009276C8 /* Resources */,
+				90EE72D1A296435B12CF9706 /* Embed Pods Frameworks */,
+				827D82E003DC5C531B70C5FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +247,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0398B5B21751AA2CA7B7F24D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		827D82E003DC5C531B70C5FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppVentoryTests/Pods-AppVentoryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90EE72D1A296435B12CF9706 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppVentoryTests/Pods-AppVentoryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7A9D06A1C6A91C9009276C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A9D0941C6AA176009276C8 /* App.swift in Sources */,
+				C7A9D0901C6A9CEC009276C8 /* InventoryManager.swift in Sources */,
+				C7A9D08E1C6A9B5D009276C8 /* AppVentory.swift in Sources */,
+				C7A9D0971C6AA2F6009276C8 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A9D0951C6AA176009276C8 /* App.swift in Sources */,
+				C7A9D0911C6A9CEC009276C8 /* InventoryManager.swift in Sources */,
 				C7A9D07F1C6A91C9009276C8 /* AppVentoryTests.swift in Sources */,
+				C7A9D0981C6AA2F6009276C8 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,38 +421,50 @@
 		C7A9D0841C6A91C9009276C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AppVentory/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.levelapp.AppVentory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C7A9D0851C6A91C9009276C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AppVentory/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.levelapp.AppVentory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		C7A9D0871C6A91C9009276C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76BDE27606F13F4085209B3 /* Pods-AppVentoryTests.debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = AppVentoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.levelapp.AppVentoryTests;
@@ -349,7 +474,12 @@
 		};
 		C7A9D0881C6A91C9009276C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20688F39921683916271626 /* Pods-AppVentoryTests.release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = AppVentoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.levelapp.AppVentoryTests;
@@ -376,6 +506,7 @@
 				C7A9D0851C6A91C9009276C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A9D0861C6A91C9009276C8 /* Build configuration list for PBXNativeTarget "AppVentoryTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +515,7 @@
 				C7A9D0881C6A91C9009276C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
