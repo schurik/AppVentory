@@ -20,6 +20,7 @@
 		C7A9D0951C6AA176009276C8 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0931C6AA176009276C8 /* App.swift */; };
 		C7A9D0971C6AA2F6009276C8 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0961C6AA2F6009276C8 /* ApiClient.swift */; };
 		C7A9D0981C6AA2F6009276C8 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D0961C6AA2F6009276C8 /* ApiClient.swift */; };
+		C7A9D0C51C6AB073009276C8 /* InventoryManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = C7A9D08F1C6A9CEC009276C8 /* InventoryManager.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A9D0731C6A91C9009276C8 /* AppVentory.h in Headers */,
+				C7A9D0C51C6AB073009276C8 /* InventoryManager.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
